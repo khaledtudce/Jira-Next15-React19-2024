@@ -5,6 +5,7 @@ import { Button } from "./ui/button";
 import { PenBox } from "lucide-react";
 import UserMenu from "./user-menu";
 import { checkUser } from "@/lib/checkUser";
+import UserLoading from "./user-loading";
 
 const Header = async () => {
   // loggenInUser will be inserted to the neon postgresql if not exists
@@ -39,6 +40,7 @@ const Header = async () => {
           </SignedIn>
         </div>
       </nav>
+      <UserLoading />
     </header>
   );
 };
