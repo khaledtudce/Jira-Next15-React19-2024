@@ -73,6 +73,7 @@ export default function Home() {
           </Button>
         </Link>
       </section>
+      {/* Key Features Section */}
       <section id="features" className="bg-gray-900 py-20 px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">Key Features</h3>
@@ -93,6 +94,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      {/* Company Carousel Icons */}
       <section className="py-20">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">
@@ -101,6 +103,7 @@ export default function Home() {
           <CompanyCarousel />
         </div>
       </section>
+      {/* FAQ Accordion */}
       <section className="bg-gray-900 py-20 px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-12 text-center">
@@ -116,6 +119,7 @@ export default function Home() {
           </Accordion>
         </div>
       </section>
+      {/* Start in Action for free */}
       <section className="py-20 text-center px-5">
         <div className="container mx-auto">
           <h3 className="text-3xl font-bold mb-6">
